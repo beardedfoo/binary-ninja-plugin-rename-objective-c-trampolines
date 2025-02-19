@@ -40,5 +40,6 @@ This plugin provides functionality which renames the trampolines to match the na
 
 ## Known Issues / Limitations
 
-This plugin is designed to work exclusively with ARM64/aarch64 binaries at this time. Patches accepted for other architectures!
+- This plugin is designed to work exclusively with ARM64/aarch64 binaries at this time. Patches accepted for other architectures!
+- This plugin has been tested with Binary Ninja 4.2.x. only.
 
