@@ -32,11 +32,11 @@ This plugin provides functionality which renames the trampolines to match the na
 
 ## Installation
 
-To install this plugin hit Ctrl-P/Cmd-P in Binary Ninja and type "open plugin folder" then choose the "Open Plugin Folder..." option.
+1. Open Binary Ninja and hit Ctrl-P/Cmd-P then type "open plugin folder" and choose the "Open Plugin Folder..." option.
 
-Place the rename_objc_trampolines.py file for this plugin in your plugin folder.
+2. Place the rename_objc_trampolines.py file for this plugin in your plugin folder.
 
-Restart Binary Ninja and open an ARM64 Objective-C binary. Select the "Rename Objective-C Method Dispatch Trampolines" option from the "Plugins" menu and observe that the trampoline functions in the `__objc_stubs` segment have been renamed.
+3. Restart Binary Ninja and open an ARM64 Objective-C binary. Select the "Rename Objective-C Method Dispatch Trampolines" option from the "Plugins" menu and observe that the trampoline functions in the `__objc_stubs` segment have been renamed.
 
 ## Known Issues / Limitations
 
